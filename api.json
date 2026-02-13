@@ -1,10 +1,8 @@
 {
-  "category": "MYTHOLOGICAL_CREATURE",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/naga",
     "maintainers": [
       {
@@ -18,377 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "naga",
     "name": "Naga",
-    "aliases": [
-      {
-        "name": "Nāga",
-        "language": "Sanskrit",
-        "region": "India",
-        "meaning": "serpent"
-      },
-      {
-        "name": "Neak",
-        "language": "Khmer",
-        "region": "Cambodia"
-      },
-      {
-        "name": "Phaya Naga",
-        "language": "Thai",
-        "region": "Thailand",
-        "meaning": "lord serpent"
-      },
-      {
-        "name": "Nāgī",
-        "language": "Sanskrit",
-        "region": "India",
-        "meaning": "female naga"
-      }
-    ],
+    "aliases": [],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Entity/Spirit",
+    "subcategory": "Divine serpent",
     "tags": [
-      "serpent",
-      "divine",
-      "shape-shifter",
-      "hindu",
-      "buddhist",
-      "guardian",
-      "water-spirit",
-      "immortal",
-      "southeast-asia"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "Divine serpent beings in Hindu and Buddhist mythology. Semi-divine race with cobra-like serpent form that can assume human or part-human form, dwelling in underground kingdoms and serving as guardians of treasures and water sources.",
-      "full": "Nagas are a semi-divine race of serpent beings central to Hindu and Buddhist mythology. Depicted with multiple cobra heads (often 5, 7, or more), they possess the ability to shape-shift between serpent and human forms. Nagas dwell in Patala, the underground realm, where they guard vast treasures and water sources. They are immortal beings with control over weather, water, and magic. Famous nagas include Vasuki (used in the churning of the ocean), Shesha/Ananta (the cosmic serpent upon which Vishnu reclines), and Mucalinda (who protected the Buddha during meditation). Nagas can be benevolent protectors or malevolent destroyers depending on how they are treated. Their imagery is prominent in temple architecture throughout India and Southeast Asia, particularly at Angkor Wat and Thai temples."
+      "summary": "Nagas are semi-divine serpent beings central to Hindu and Buddhist mythology.",
+      "full": "Nagas are semi-divine serpent beings central to Hindu and Buddhist mythology. Depicted with multiple cobra heads (often 5, 7, or more), they possess the ability to shape-shift between serpent and human forms. Nagas dwell in Patala, the underground realm, where they guard vast treasures and water sources. They are immortal beings with control over weather, water, and magic. Famous nagas include Vasuki (used in the churning of the ocean), Shesha/Ananta (the cosmic serpent upon which Vishnu reclines), and Mucalinda (who protected the Buddha during meditation). Nagas can be benevolent protectors or malevolent destroyers depending on how they are treated. Their imagery is prominent in temple architecture throughout India and Southeast Asia, particularly at Angkor Wat and Thai temples."
     },
     "etymology": {
-      "origin": "From Sanskrit 'nāga' (नाग), meaning serpent or snake",
-      "meaning": "Serpent, snake deity",
-      "first_use": "Ancient Vedic texts (circa 1500-1000 BCE)"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "Entity/Spirit",
-      "subtype": "Divine serpent",
-      "variant": "Hindu/Buddhist"
+      "type": "Divine serpent",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "garuda",
-        "name": "Garuda",
-        "relationship": "enemy",
-        "description": "Divine bird, eternal enemy of nagas"
-      },
-      {
-        "id": "dragon",
-        "name": "Dragon",
-        "relationship": "similar",
-        "description": "Chinese/East Asian dragon, similar serpent deity"
-      },
-      {
-        "id": "basilisk",
-        "name": "Basilisk",
-        "relationship": "related",
-        "description": "European serpent creature with similar powers"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "forms": [
-        {
-          "form": "Serpent",
-          "description": "Full cobra form with multiple heads (typically 5, 7, or 9), cobra hood, jeweled crown",
-          "frequency": "common"
-        },
-        {
-          "form": "Human",
-          "description": "Fully human appearance through shape-shifting",
-          "frequency": "common"
-        },
-        {
-          "form": "Hybrid",
-          "description": "Human upper body with serpent lower body, or human with cobra hood",
-          "frequency": "common"
-        }
-      ],
-      "features": [
-        {
-          "feature": "Multiple heads",
-          "description": "Often depicted with 5, 7, or more cobra heads",
-          "frequency": "common"
-        },
-        {
-          "feature": "Cobra hood",
-          "description": "Distinctive expanded cobra hood",
-          "frequency": "always"
-        },
-        {
-          "feature": "Jeweled crown",
-          "description": "Precious gems and crowns adorning heads",
-          "frequency": "common"
-        },
-        {
-          "feature": "Scales",
-          "description": "Serpentine scales, often depicted as luminous or golden",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Semi-divine serpent beings capable of assuming multiple forms. Primary form is cobra-like with multiple heads. Can transform into human or part-human appearance at will."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shape-shifting",
-        "description": "Can transform between serpent, human, and hybrid forms",
-        "frequency": "always",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Weather control",
-        "description": "Command over rain, storms, and water",
-        "frequency": "common",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Water control",
-        "description": "Dominion over rivers, lakes, and water sources",
-        "frequency": "always",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Immortality",
-        "description": "Eternal life as divine beings",
-        "frequency": "always",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Magic",
-        "description": "Various magical powers and supernatural abilities",
-        "frequency": "common",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Wisdom",
-        "description": "Deep knowledge and supernatural wisdom",
-        "frequency": "common",
-        "evidence_level": "mythological"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "disposition": "ambivalent",
-      "social_structure": "hierarchical kingdoms",
-      "habitat_preference": [
-        "underground kingdoms (Patala)",
-        "rivers and water sources",
-        "caves",
-        "temples"
-      ],
-      "patterns": [
-        "Guard treasures and water sources",
-        "Benevolent when respected, destructive when offended",
-        "Protect worthy individuals",
-        "Associated with fertility and rainfall"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Originating in Hindu mythology of India, naga beliefs spread throughout Southeast Asia with Buddhism and Hinduism",
-      "continents": ["Asia"],
-      "countries": ["India", "Thailand", "Cambodia", "Laos", "Myanmar", "Indonesia", "Sri Lanka", "Nepal"],
-      "regions": [
-        "Indian subcontinent",
-        "Southeast Asia",
-        "Himalayan region"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "cultural_significance": [
-      {
-        "culture": "Hinduism",
-        "significance": "Divine beings, associates of major deities, cosmic serpents"
-      },
-      {
-        "culture": "Buddhism",
-        "significance": "Protectors of Buddha and dharma, particularly Mucalinda"
-      },
-      {
-        "culture": "Khmer",
-        "significance": "Ancestral beings, prominent in Angkor Wat architecture"
-      },
-      {
-        "culture": "Thai",
-        "significance": "Water spirits, temple guardians, national symbol"
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
       }
-    ]
+    }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Ancient Hindu mythology, Vedic texts, pre-Hindu serpent worship traditions",
-      "earliest_accounts": "Vedic literature (circa 1500-1000 BCE), Mahabharata, Ramayana",
-      "folklore_connections": "Connected to worldwide serpent deity traditions, dragon mythology"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "1500-1000 BCE",
-        "event": "Vedic period references",
-        "significance": "Earliest textual references to nagas in Vedic literature",
-        "source": "Rigveda, Atharvaveda"
-      },
-      {
-        "date": "400 BCE",
-        "event": "Mahabharata composition",
-        "significance": "Major naga stories including Vasuki and the churning of the ocean",
-        "source": "Mahabharata epic"
-      },
-      {
-        "date": "200 BCE",
-        "event": "Buddhist adoption",
-        "significance": "Mucalinda protects Buddha during meditation, nagas incorporated into Buddhist cosmology",
-        "source": "Buddhist texts"
-      },
-      {
-        "date": "800-1200 CE",
-        "event": "Southeast Asian spread",
-        "significance": "Naga beliefs spread to Cambodia, Thailand, Laos with Hindu-Buddhist influence",
-        "source": "Temple inscriptions and architecture"
-      },
-      {
-        "date": "1113-1150 CE",
-        "event": "Angkor Wat construction",
-        "significance": "Massive naga sculptures and iconography in Khmer temple architecture",
-        "source": "Archaeological record"
-      }
-    ],
-    "modern_era": "Nagas remain central to living Hindu and Buddhist religious traditions. Featured prominently in temple architecture, festivals, and popular culture across South and Southeast Asia. National symbol of Thailand, Indonesia. Subject of continued religious veneration."
+    "timeline": []
   },
-
-  "famous_nagas": [
-    {
-      "name": "Vasuki",
-      "role": "King of nagas, used as rope in churning of ocean (Samudra Manthan)",
-      "mythology": "Hindu",
-      "significance": "Central to creation myth of obtaining amrita (nectar of immortality)"
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    {
-      "name": "Shesha/Ananta",
-      "role": "Cosmic serpent, bed of Vishnu",
-      "mythology": "Hindu",
-      "significance": "Supports the universe, symbol of infinity and eternity"
-    },
-    {
-      "name": "Mucalinda",
-      "role": "Protected Buddha during meditation",
-      "mythology": "Buddhist",
-      "significance": "Seven-headed naga king who shielded Buddha from storm"
-    },
-    {
-      "name": "Takshaka",
-      "role": "Naga king",
-      "mythology": "Hindu",
-      "significance": "Killed King Parikshit in Mahabharata"
-    },
-    {
-      "name": "Manasa",
-      "role": "Goddess of snakes",
-      "mythology": "Hindu",
-      "significance": "Daughter of Shiva, protector from snake bites"
-    }
-  ],
-
-  "symbolism": {
-    "primary_meanings": [
-      "Fertility and life force",
-      "Water and rainfall",
-      "Protection and guardianship",
-      "Cosmic energy (kundalini)",
-      "Wealth and treasures",
-      "Eternity and infinity"
-    ],
-    "spiritual_significance": "In Hinduism and Buddhism, nagas represent the kundalini energy coiled at the base of the spine. They symbolize the potential for spiritual awakening and transformation. Their connection to water represents life-giving forces and fertility."
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Naga Panchami festival (Hindu snake worship)",
-        "Naga fireball phenomenon (Mekong River)",
-        "Naga ancestry myths (Khmer, Lao peoples)",
-        "Temple guardian traditions"
-      ],
-      "beliefs": "Nagas control rainfall and water sources, must be propitiated for good harvests. Can bring prosperity or disaster. Marriage between humans and nagas in some regional myths."
-    },
-    "architecture": {
-      "examples": [
-        "Angkor Wat (Cambodia) - massive naga balustrades",
-        "Thai Buddhist temples - naga staircases",
-        "Indian temples - naga sculptures and iconography",
-        "Laotian temples - naga roof decorations"
-      ],
-      "description": "Naga imagery is ubiquitous in Hindu and Buddhist temple architecture, particularly in Southeast Asia. Multi-headed nagas flank temple staircases, bridge railings, and roof decorations."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Featured in Hindu epics (Mahabharata, Ramayana)",
-        "Buddhist Jataka tales",
-        "Modern fantasy literature"
-      ],
-      "film_tv": [
-        "Various Bollywood mythological films",
-        "Thai supernatural television series",
-        "Anime and manga depictions"
-      ],
-      "other": [
-        "National emblem of Indonesia (Garuda fighting naga)",
-        "Thai national symbol",
-        "Modern Hindu and Buddhist art"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "cultural_sensitivity": {
-    "note": "Nagas are part of living Hindu and Buddhist religious traditions. They are objects of active worship and veneration, not merely mythological creatures. Approach with respect for religious significance.",
-    "guidelines": [
-      "Recognize nagas as sacred religious beings, not fictional monsters",
-      "Respect temple spaces where naga imagery appears",
-      "Understand cultural context when discussing or depicting nagas",
-      "Consult with Hindu and Buddhist scholars for religious interpretation"
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "vogel-1926",
-      "type": "book",
-      "title": "Indian Serpent-Lore or the Nāgas in Hindu Legend and Art",
-      "authors": ["Jean Philippe Vogel"],
-      "publication": "Arthur Probsthain",
-      "date": "1926"
-    },
-    {
-      "id": "zimmer-1946",
-      "type": "book",
-      "title": "Myths and Symbols in Indian Art and Civilization",
-      "authors": ["Heinrich Zimmer"],
-      "publication": "Princeton University Press",
-      "date": "1946"
-    },
-    {
-      "id": "vatsyayan-1995",
-      "type": "book",
-      "title": "The Square and the Circle of the Indian Arts",
-      "authors": ["Kapila Vatsyayan"],
-      "publication": "Abhinav Publications",
-      "date": "1995"
-    }
-  ]
+  "sources": []
 }
