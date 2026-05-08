@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/naga",
     "maintainers": [
       {
@@ -16,72 +16,153 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "naga",
     "name": "Naga",
-    "aliases": [],
+    "aliases": [
+      { "name": "Nāga", "language": "Sanskrit", "meaning": "snake; in particular the Indian cobra (Naja naja)" },
+      { "name": "Nagini", "language": "Sanskrit / Hindi", "meaning": "female naga" },
+      { "name": "Phaya Nak / Phaya Nāga", "language": "Thai", "region": "Thailand" },
+      { "name": "Phaya Nak", "language": "Lao", "region": "Laos" },
+      { "name": "Klu / klu-mo", "language": "Tibetan", "region": "Tibet" },
+      { "name": "Sanghyang Antaboga", "language": "Javanese / Balinese", "region": "Indonesia", "meaning": "guardian serpent of the underworld" },
+      { "name": "Bakunawa", "language": "Visayan", "region": "Philippines", "meaning": "moon-eating serpent (syncretized with naga)" }
+    ],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Divine serpent",
+    "subcategory": "Divine serpent of South and Southeast Asian religion",
     "tags": [
-      "folklore",
-      "mythology"
+      "serpent",
+      "hindu",
+      "buddhist",
+      "south-asia",
+      "southeast-asia",
+      "water-deity",
+      "guardian",
+      "shapeshifter"
     ],
     "status": "documented",
     "description": {
-      "summary": "Nagas are semi-divine serpent beings central to Hindu and Buddhist mythology.",
-      "full": "Nagas are semi-divine serpent beings central to Hindu and Buddhist mythology. Depicted with multiple cobra heads (often 5, 7, or more), they possess the ability to shape-shift between serpent and human forms. Nagas dwell in Patala, the underground realm, where they guard vast treasures and water sources. They are immortal beings with control over weather, water, and magic. Famous nagas include Vasuki (used in the churning of the ocean), Shesha/Ananta (the cosmic serpent upon which Vishnu reclines), and Mucalinda (who protected the Buddha during meditation). Nagas can be benevolent protectors or malevolent destroyers depending on how they are treated. Their imagery is prominent in temple architecture throughout India and Southeast Asia, particularly at Angkor Wat and Thai temples."
+      "summary": "A divine, semi-divine race of serpent beings central to Hindu, Buddhist, and Jain cosmology and to the religious life of South and Southeast Asia. Nagas are guardians of waters and treasures, capable of taking serpent, human, or hybrid form.",
+      "full": "The naga is a class of divine or semi-divine serpent beings shared across Hindu, Buddhist, and Jain traditions and woven into the religious cultures of India, Sri Lanka, Nepal, Tibet, Cambodia, Thailand, Laos, Indonesia, the Philippines, and Malaysia. The Sanskrit word nāgá literally means 'snake', and is paradigmatically associated with the Indian cobra. Nagas are described as inhabiting Patala (the netherworld) and as guardians of rivers, lakes, springs, and treasures; they appear in iconography variously as serpents, fully human figures with cobra hoods, or half-human half-serpent hybrids. Female nagas are called nagini. Major nagaraja figures include Vasuki, who served as the rope in the Samudra Manthana (churning of the ocean of milk) and who adorns Shiva's neck; Shesha (Ananta), the cosmic serpent on whom Vishnu reclines in yoga nidra; and Takshaka, ruler of the Khandava forest. In Buddhist tradition the nagaraja Mucalinda sheltered the Buddha from a storm for seven days. Across Theravada Southeast Asia the naga is intimately tied to water and rainmaking; in Cambodia the founding myth of Funan describes the union of Kaundinya I with the naga princess Soma. In Thailand the Phaya Nak was officially designated a national symbol in November 2022, and the so-called Naga fireballs of the Mekong River — small reddish lights rising from the river around Wan Ok Phansa each October — are popularly attributed to the naga, though scientists have proposed several mundane explanations including phosphine and the firing of flares."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Sanskrit नाग (nāgá), 'snake', cognate with terms for 'snake' across Indo-European languages.",
+      "meaning": "Literally 'snake' or 'serpent', particularly the Indian cobra (Naja naja).",
+      "first_use": "Attested in Vedic and classical Sanskrit literature; rituals devoted to nagas have persisted in South Asia for at least two millennia."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
       "type": "Divine serpent",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "subtype": "Nāga / nāgaraja",
+      "variant": "Pan-Asian (Hindu / Buddhist / Jain)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "garuda", "name": "Garuda", "relationship": "counterpart", "description": "Mythic eagle and traditional adversary of the naga in Hindu, Buddhist, and Indonesian tradition" },
+      { "id": "chinese-dragon", "name": "Chinese Dragon (Long)", "relationship": "similar", "description": "East Asian water-associated divine serpent, conceptually convergent with the naga" },
+      { "id": "bakunawa", "name": "Bakunawa", "relationship": "regional_variant", "description": "Filipino moon-eating serpent syncretized with naga mythology" },
+      { "id": "phaya-nak", "name": "Phaya Nak", "relationship": "regional_variant", "description": "Thai/Lao naga of the Mekong River" },
+      { "id": "sri-gumum", "name": "Sri Gumum", "relationship": "regional_variant", "description": "Naga of Lake Chini, Pahang, in Malay and Orang Asli tradition" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["green", "black", "gold", "polychrome"],
+      "features": [
+        { "feature": "Cobra hood", "description": "Iconographically depicted with one or more cobra hoods over a human head", "frequency": "common" },
+        { "feature": "Multiple heads", "description": "Often depicted with 1, 3, 5, 7, or 9 heads, with specific symbolic meanings (e.g. 7-headed Muchlentak associated with peace and prosperity in Cambodian tradition)", "frequency": "common" },
+        { "feature": "Half-human, half-serpent body", "description": "Hybrid form with human upper body and serpentine lower body", "frequency": "common" },
+        { "feature": "Full serpent form", "description": "May appear as an ordinary or giant snake", "frequency": "common" },
+        { "feature": "Jewel or amrita vessel", "description": "Vajrayana and Mahasiddha iconography depicts nagas holding jewels or vessels of amrita (nectar of immortality)", "frequency": "occasional" }
+      ],
+      "morphology": "A shapeshifting serpent being whose primary forms are full serpent, fully human (often with a cobra hood), and half-human / half-serpent."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Able to assume serpent, human, or hybrid forms at will", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Control of waters", "description": "Patron of rivers, lakes, springs, seas, and rainfall", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Treasure guardianship", "description": "Guards subterranean and underwater treasures", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Cure of snakebite", "description": "The goddess Manasa (a naga deity) is invoked as healer of snakebite", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Production of fireballs (popular attribution)", "description": "Popularly credited with producing the Naga fireballs (Bang Fai Phaya Nak) seen rising from the Mekong each October", "frequency": "occasional", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": ["rivers", "lakes", "seas", "springs", "wells", "termite mounds", "underworld (Patala)", "caves"],
+      "patterns": [
+        "Inhabit and guard bodies of water and underground realms",
+        "May aid or oppose humans depending on treatment",
+        "Frequently appear as guardians at temple entrances and on stair railings"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Veneration and folklore of nagas extend across South Asia and mainland and maritime Southeast Asia, with significant Tibetan and Himalayan traditions.",
+      "continents": ["Asia"],
+      "countries": ["India", "Nepal", "Sri Lanka", "Tibet (China)", "Bangladesh", "Cambodia", "Thailand", "Laos", "Vietnam", "Indonesia", "Malaysia", "Philippines"],
+      "regions": [
+        "South Asia",
+        "Southeast Asia",
+        "Mekong River basin",
+        "Himalayas",
+        "Indonesian archipelago"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Mekong River (Phon Phisai region)",
+        "location": {
+          "description": "~250 km section of the Mekong centered near Phon Phisai, Nong Khai Province",
+          "country": "Thailand",
+          "region": "Isan (northeastern Thailand) / Lao border"
+        },
+        "peak_period": "Late October (Wan Ok Phansa)",
+        "notes": "Site of the annual Naga fireballs (Bang Fai Phaya Nak)"
+      },
+      {
+        "name": "Lake Chini",
+        "location": {
+          "description": "Lake Chini, Pahang",
+          "country": "Malaysia",
+          "region": "Pahang"
+        },
+        "notes": "Traditional home of the naga Sri Gumum in Malay and Orang Asli folklore"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Antiquity",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Vedic and classical Sanskrit literature; rituals devoted to nagas have persisted for at least 2,000 years"
+      },
+      "peak_activity_periods": [
+        { "period": "Classical Hindu and Buddhist period (c. 500 BCE – 500 CE)", "description": "Major mythological elaboration in the Mahabharata, Ramayana, Puranas, and Pali Canon" },
+        { "period": "Medieval Southeast Asia (1st millennium CE)", "description": "Foundation of the Funan dynasty (1st century CE) traced to Kaundinya I and the naga princess Soma; spread of naga iconography across Khmer, Cham, Mon, and Javanese kingdoms" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Indo-Aryan and Dravidian serpent veneration in early India, integrated into Hindu, Buddhist, and Jain cosmology and exported across Asia along with these religions.",
+      "earliest_accounts": "Vedic literature and the Mahabharata contain the earliest comprehensive nāga descriptions in Sanskrit.",
+      "folklore_connections": "Cognate with serpent-deity traditions across Asia, including the Chinese long, Tibetan klu, and Filipino bakunawa."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "c. 1st century CE", "event": "Foundation myth of Funan: the Brahmin Kaundinya I marries the naga princess Soma, founding the Khmer royal lineage", "significance": "Naga as ancestress of Southeast Asian kingship", "source": "Khmer foundation tradition; recorded in classical inscriptions and Chinese histories" },
+      { "date": "1994", "event": "Thai biologist Manas Kanoksilp publishes early scientific commentary on the Mekong fireballs", "significance": "Beginning of formal scientific engagement with the Naga fireballs phenomenon", "source": "Naga fireball / Wikipedia" },
+      { "date": "2002", "event": "Documentary by Thai biologist Jessada Denduangboripant attributes Mekong Naga fireballs to flare guns fired from the Lao bank", "significance": "Best-known skeptical investigation of the phenomenon", "source": "Wikipedia: Naga fireball" },
+      { "date": "2022-11", "event": "Thailand officially declares the naga its national symbol", "significance": "Formal state recognition of the naga as a Thai cultural emblem", "source": "Wikipedia: Nāga" }
+    ],
+    "modern_era": "The naga remains a living religious figure across South and Southeast Asia, integrated into Hindu and Buddhist temple architecture, royal regalia, festival cycles (e.g. Naga Panchami in India, Wan Ok Phansa in Thailand-Laos), and modern national symbolism."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -89,38 +170,161 @@
       "disputed": 0,
       "debunked": 0
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "naga-sighting-mekong-fireballs",
+        "name": "Naga fireballs (Bang Fai Phaya Nak)",
+        "date": { "value": "2022-10-10", "precision": "approximate" },
+        "location": {
+          "description": "Mekong River near Phon Phisai, Nong Khai Province, on the Thai-Lao border",
+          "country": "Thailand",
+          "region": "Isan / Mekong River"
+        },
+        "witnesses": { "count": 0, "types": ["Annual public festival crowds of thousands of observers"], "credibility_factors": ["Recurrent, large-scale public observation"] },
+        "description": "Each year around the night of Wan Ok Phansa at the end of Vassa (typically late October), reddish glowing orbs are reported to rise from the Mekong River along an approximately 250 km stretch centered near Phon Phisai, ranging in size from sparkles to basketball-sized objects and ascending several hundred metres before disappearing. The phenomenon is locally attributed to the Phaya Nak; the entry uses 2022 as a representative year for the recurring event.",
+        "conditions": { "time_of_day": "Night", "duration": "Repeated over the course of one or several nights" },
+        "evidence": ["Direct visual observation by thousands of festival attendees", "Photographic and video documentation"],
+        "credibility": { "rating": "medium", "factors": ["Recurrent and openly observed phenomenon", "Multiple competing scientific explanations"], "notes": "The visual phenomenon is real; the supernatural attribution to nagas is folkloric. Best-known skeptical explanation (Jessada Denduangboripant) attributes the lights to flare guns fired from the Lao bank." },
+        "sources": ["Wikipedia: Naga fireball"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
-    "video": [],
+    "video": [
+      {
+        "id": "naga-evidence-fireball-footage",
+        "type": "video",
+        "name": "Naga fireball video documentation",
+        "description": "Numerous amateur and broadcast video recordings of the annual Mekong fireballs over Phon Phisai, dating from the 1990s to present.",
+        "status": "disputed",
+        "analysis": "The phenomenon is demonstrably visible; competing explanations include flare guns (Jessada Denduangboripant), phosphine combustion, and plasma orbs.",
+        "source": "Multiple Thai broadcast and amateur recordings"
+      }
+    ],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "naga-evidence-mahabharata",
+        "type": "scriptural text",
+        "name": "Mahabharata naga passages",
+        "description": "The Mahabharata contains the earliest comprehensive descriptions of nagas in Sanskrit, including accounts of Vasuki, Takshaka, and the destruction of the Khandava forest.",
+        "status": "verified",
+        "analysis": "Foundational textual source for Hindu naga tradition.",
+        "source": "Mahabharata (classical Sanskrit epic)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Living divine serpents (traditional religious)",
+        "description": "In Hindu, Buddhist, Jain, and Southeast Asian traditions, nagas are understood as real divine or semi-divine beings associated with waters, treasure, and rainfall.",
+        "proponents": ["Hindu, Buddhist, and Jain religious traditions", "Theravada Buddhist communities of mainland Southeast Asia"],
+        "evidence_cited": ["Scriptural authority (Mahabharata, Puranas, Pali Canon, Lotus Sutra)", "Continuous ritual veneration over two millennia"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Phosphine combustion (Naga fireballs)",
+        "description": "Hypothesis that the Mekong fireballs are caused by spontaneous combustion of phosphine and methane gases generated in the river's marshy environment.",
+        "proponents": ["Various Thai scientists, popular press"],
+        "evidence_cited": ["Marshy/anoxic Mekong sediment", "Known low-temperature combustion of phosphine"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Flare guns from the Lao bank (Naga fireballs)",
+        "description": "Investigation by Thai biologist Jessada Denduangboripant concluded the Naga fireballs are produced by tracer rounds or flare guns fired from the Lao side of the Mekong.",
+        "proponents": ["Jessada Denduangboripant"],
+        "evidence_cited": ["Documented test firings", "Trajectory and timing analysis", "Aired on Thai television"]
+      },
+      {
+        "name": "Folkloric origin of supernatural attribution",
+        "description": "Skeptical interpretation treats the naga itself as a religious-mythological being and explains apparent 'sightings' (fireballs, river-dwelling monsters) as misperception or culturally framed natural phenomena.",
+        "proponents": ["Mainstream science and folklore studies"],
+        "evidence_cited": ["No physical evidence of giant serpents in the Mekong", "Multiple natural-cause explanations for fireballs"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Hindu naga veneration (Naga Panchami)",
+        "Buddhist Mucalinda tradition (sheltering of the Buddha)",
+        "Khmer foundation myth of Kaundinya I and Soma",
+        "Thai-Lao Phaya Nak tradition and Mekong fireballs",
+        "Tibetan klu / klu-mo water-spirit tradition",
+        "Javanese-Balinese Antaboga tradition",
+        "Filipino Bakunawa eclipse tradition"
+      ],
+      "stories": [
+        "Samudra Manthana (churning of the ocean of milk) with Vasuki as rope",
+        "Mucalinda shelters the Buddha for seven days during a storm",
+        "The naga princess in the Lotus Sutra attaining enlightenment at age eight",
+        "Kaundinya I marries the naga princess Soma, founding Funan"
+      ],
+      "beliefs": "Nagas are revered as guardians of water, treasure, fertility, and royal legitimacy across South and Southeast Asia."
+    },
+    "indigenous": {
+      "cultures": ["Hindu communities of South Asia", "Theravada Buddhist communities of mainland Southeast Asia", "Vajrayana communities of the Himalayas", "Orang Asli of Peninsular Malaysia", "Javanese, Sundanese, and Balinese communities of Indonesia"],
+      "significance": "The naga is a living religious presence in many of these communities, not merely a historical or folkloric figure; it is woven into temple architecture, festival cycles, and royal symbolism.",
+      "sensitivity_note": "Naga veneration is an active religious practice in Hindu, Buddhist, Jain, and Indigenous Southeast Asian communities. It should not be reduced to cryptozoology.",
+      "respect_guidelines": "Follow community framings when describing naga practice; do not conflate the naga as a religious figure with the cryptozoological investigation of the Mekong fireballs or other purported sightings."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Mahabharata (classical Sanskrit epic)",
+        "Ramayana (classical Sanskrit epic)",
+        "Lotus Sutra (Mahayana Buddhist scripture)"
+      ],
+      "film_tv": [
+        "Nagin (1954)",
+        "Nagin (1976)",
+        "Nagina (1986)",
+        "Nakee (Thai television series)",
+        "Poot Mae Nam Khong (Thai film)"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Naga Panchami festival (India)",
+        "Bang Fai Phaya Nak / Naga fireball festival (Thailand-Laos)",
+        "Naga as Thailand's official national symbol (2022)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Jessada Denduangboripant", "affiliation": "Chulalongkorn University", "contribution": "Skeptical investigation of the Mekong Naga fireballs, attributing them to flare guns" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Ongoing folkloric, religious-studies, and Indology scholarship on naga traditions; continuing scientific debate over the cause of the Mekong fireballs."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-naga",
+      "type": "website",
+      "title": "Nāga",
+      "publication": "English Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/N%C4%81ga",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "wikipedia-naga-fireball",
+      "type": "website",
+      "title": "Naga fireball",
+      "publication": "English Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Naga_fireball",
+      "accessed": "2026-05-07"
+    }
+  ]
 }
